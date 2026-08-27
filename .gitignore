@@ -30,3 +30,45 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# Binários compilados
+/task-service
+/main
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+ 
+# Saída de testes
+*.test
+*.out
+coverage.txt
+ 
+# Banco de dados SQLite (gerado em runtime)
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+ 
+# Variáveis de ambiente / segredos
+.env
+.env.local
+ 
+# Dependências vendorizadas (se não fizer commit do vendor)
+/vendor/
+ 
+# Arquivos de IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+ 
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+ 
+# Go workspace files (se não fizer commit deles)
+go.work
+go.work.sum
+ 
